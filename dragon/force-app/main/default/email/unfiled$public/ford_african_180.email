@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <table style="width:100%; padding-right:20px !important; padding-top:0px !important; !important; padding-left:20px !important; text-align:justify !important">
+      <tr>
+        <td>
+          <table style="width:100%;">
+            <tr>
+              <td align="top">
+                <img src="https://absa2--rbbfic--c.documentforce.com/servlet/servlet.ImageServer?id=0153O000000cnLl&oid=00D3O0000004xxb&lastMod=1644843029000" width="8%">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p align="right" style="margin-top: 0px;">
+                  <font color="#696665;">
+                    <b>Vehicle and Asset Finance</b>
+                    <br />
+                    <br /> 4th Floor <br />Absa Towers West <br />15 Troye Street <br />Johannesburg <br />2001 <br />South Africa <br />
+                    <br />T +27 11 350 4000 <br />Swift address : ABSAZAJJ <br /> absa.co.za
+                  </font>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Datum</td>
+              <td>&nbsp;&nbsp;&nbsp;&nbsp;{!Account.NO_UI_Today_s_date__c}</td>
+            </tr>
+            <tr>
+              <td>Kliënt se verwysingsnommer</td>
+              <td>&nbsp;&nbsp;&nbsp;&nbsp;{!Case.Reference_Number__c}</td>
+            </tr>
+            <tr>
+              <td>Kliënt se Naam</td>
+              <td>&nbsp;&nbsp;&nbsp;&nbsp;{!Account.Name}</td>
+            </tr>
+            <tr>
+              <td>Kontak e-posadres</td>
+              <td>&nbsp;&nbsp;&nbsp;&nbsp;{!Contact.Email}</td>
+            </tr>
+            <tr>
+              <td>Kontak se naam</td>
+              <td>&nbsp;&nbsp;&nbsp;&nbsp;{!Contact.Name}</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            <br />Beste Kliënt<br />
+            <b>
+              <u>
+                <strong>WET OP DIE FINANSIËLE INTELLIGENSIESENTRUM (FIS-WET), 38 VAN 2001 ("die Wet")</strong>
+              </u>
+            </b>
+            <br />Daar is in die laaste jare wêreldwyd maatreëls geïmplementeer om geldwassery te bekamp as gevolg van die aansienlike bedreiging wat geldwassery vir die integriteit van moderne ekonomieë inhou. Soos u miskien weet, is die Wet verorden as deel van die Suid-Afrikaanse regering se stryd teen geldwassery en bevat deurslaggewende maatreëls wat op die bekamping van sulke aktiwiteite gemik is.<br />
+            <br />’n Sleutelbepaling van die Wet vereis dat Finansiëlediensteverskaffers, insluitende Absa, die identiteit en/of adres van hul kliënte (individue/entiteite en verwante partye) bekragtig en ’n opgedateerde rekord hou van hierdie inligting en dokumente wat ’n kliënt verifieer. Absa moet derhalwe op ’n deurlopende grondslag met sy kliënte bevestig dat die inligting op rekord nog geldig is en bewys van geldige inligting aanvra indien dit nie is nie. <br />
+            <br />Ons rekords wys dat die volgende verpligte inligting/dokumente van u vereis word: <br />
+            <i>[add required document list]</i>
+            <br />
+            <br />Stuur die vereiste inligting/dokumente dringend saam met u verwysingsnommer, soos hier bo aangegee, na <a style="color:black" href="mailto:FordCreditFic@absa.africa">
+              <b>FordCreditFic@absa.africa</b>
+            </a>
+            <br />
+            <br /><b>Neem asseblief kennis dat Ford Credit SA</b> ’n gesamentlike onderneming tussen Ford Credit International en Absa Bank Beperk is. As sodanig, <b>sal Absa van tyd tot tyd sekere administratiewe dienste namens Ford Credit moet lewer.</b> <br />
+            <br />Indien u nie die nodige inligting teen (“” Date “” Day zero) kan verskaf nie, sal ons u portefeulje by Ford Credit moet beperk, wat alle rekenings en fasiliteite insluit. Slegs die volgende transaksies sal toegelaat word: Bestaande debiet-/aftrekorders. <br />
+            <br />Ons sal poog om u deur hierdie proses by te staan en enige impak op u besigheid te voorkom. <br />
+            <br />Ons behou egter die reg voor om ons belange na ons goeddunke te beskerm indien ons deur die wet (of deur internasionale beste praktyke) verplig word, of indien ons rede het om te glo dat u rekening vir enige onwettige doeleindes gebruik word. <br />
+            <br />Kontak ons gerus by die besonderhede wat hier bo aangegee word, of stuur vir ons ŉ e-pos by <b><u>FordCredit@geomail.co.za</u></b> as u enige navrae het of hulp verlang. <br />
+            <br />Let wel dat verdere dokumente by ontvangs van hierdie inligting vereis kan word. <br />
+            <br />Ons stel ons verhouding met u op prys en waardeer u samewerking. <br />
+            <br />Vriendelik die uwe <br />
+            <br />
+            <font color="blue">Ford Credit Bestuur  </font>
+            <br />
+          </span>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

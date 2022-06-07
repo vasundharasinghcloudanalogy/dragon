@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ford african 180</name>
+    <style>none</style>
+    <subject>{!Case.Reference_Number__c} {!Case.CIF__c} {!Case.CaseNumber}</subject>
+    <textOnly>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;table style=&quot;width:100%; padding-right:20px !important; padding-top:0px !important; !important; padding-left:20px !important; text-align:justify !important&quot;&gt;
+      &lt;tr&gt;
+        &lt;td&gt;
+          &lt;table style=&quot;width:100%;&quot;&gt;
+            &lt;tr&gt;
+              &lt;td align=&quot;top&quot;&gt;
+                &lt;img src=&quot;https://absa2--rbbfic--c.documentforce.com/servlet/servlet.ImageServer?id=0153O000000cnLl&amp;oid=00D3O0000004xxb&amp;lastMod=1644843029000&quot; width=&quot;8%&quot;&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;
+                &lt;p align=&quot;right&quot; style=&quot;margin-top: 0px;&quot;&gt;
+                  &lt;font color=&quot;#696665;&quot;&gt;
+                    &lt;b&gt;Vehicle and Asset Finance&lt;/b&gt;
+                    &lt;br /&gt;
+                    &lt;br /&gt; 4th Floor &lt;br /&gt;Absa Towers West &lt;br /&gt;15 Troye Street &lt;br /&gt;Johannesburg &lt;br /&gt;2001 &lt;br /&gt;South Africa &lt;br /&gt;
+                    &lt;br /&gt;T +27 11 350 4000 &lt;br /&gt;Swift address : ABSAZAJJ &lt;br /&gt; absa.co.za
+                  &lt;/font&gt;
+                &lt;/p&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;
+          &lt;table&gt;
+            &lt;tr&gt;
+              &lt;td&gt;Datum&lt;/td&gt;
+              &lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!Account.NO_UI_Today_s_date__c}&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;Kliënt se verwysingsnommer&lt;/td&gt;
+              &lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!Case.Reference_Number__c}&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;Kliënt se Naam&lt;/td&gt;
+              &lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!Account.Name}&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;Kontak e-posadres&lt;/td&gt;
+              &lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!Contact.Email}&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;Kontak se naam&lt;/td&gt;
+              &lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!Contact.Name}&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;
+          &lt;span&gt;
+            &lt;br /&gt;Beste Kliënt&lt;br /&gt;
+            &lt;b&gt;
+              &lt;u&gt;
+                &lt;strong&gt;WET OP DIE FINANSIËLE INTELLIGENSIESENTRUM (FIS-WET), 38 VAN 2001 (&quot;die Wet&quot;)&lt;/strong&gt;
+              &lt;/u&gt;
+            &lt;/b&gt;
+            &lt;br /&gt;Daar is in die laaste jare wêreldwyd maatreëls geïmplementeer om geldwassery te bekamp as gevolg van die aansienlike bedreiging wat geldwassery vir die integriteit van moderne ekonomieë inhou. Soos u miskien weet, is die Wet verorden as deel van die Suid-Afrikaanse regering se stryd teen geldwassery en bevat deurslaggewende maatreëls wat op die bekamping van sulke aktiwiteite gemik is.&lt;br /&gt;
+            &lt;br /&gt;’n Sleutelbepaling van die Wet vereis dat Finansiëlediensteverskaffers, insluitende Absa, die identiteit en/of adres van hul kliënte (individue/entiteite en verwante partye) bekragtig en ’n opgedateerde rekord hou van hierdie inligting en dokumente wat ’n kliënt verifieer. Absa moet derhalwe op ’n deurlopende grondslag met sy kliënte bevestig dat die inligting op rekord nog geldig is en bewys van geldige inligting aanvra indien dit nie is nie. &lt;br /&gt;
+            &lt;br /&gt;Our records indicate that the following mandatory information/documentation is required from yourself: &lt;br /&gt;
+            &lt;i&gt;[add required document list]&lt;/i&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;Stuur die vereiste inligting/dokumente dringend saam met u verwysingsnommer, soos hier bo aangegee, na &lt;a style=&quot;color:black&quot; href=&quot;mailto:FordCreditFic@absa.africa&quot;&gt;
+              &lt;b&gt;FordCreditFic@absa.africa&lt;/b&gt;
+            &lt;/a&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;&lt;b&gt;Neem asseblief kennis dat Ford Credit SA&lt;/b&gt; ’n gesamentlike onderneming tussen Ford Credit International en Absa Bank Beperk is. As sodanig, &lt;b&gt;sal Absa van tyd tot tyd sekere administratiewe dienste namens Ford Credit moet lewer.&lt;/b&gt; &lt;br /&gt;
+            &lt;br /&gt;Indien u nie die nodige inligting teen (“” Date “” Day zero) kan verskaf nie, sal ons u portefeulje by Ford Credit moet beperk, wat alle rekenings en fasiliteite insluit. Slegs die volgende transaksies sal toegelaat word: Bestaande debiet-/aftrekorders. &lt;br /&gt;
+            &lt;br /&gt;Ons sal poog om u deur hierdie proses by te staan en enige impak op u besigheid te voorkom. &lt;br /&gt;
+            &lt;br /&gt;Ons behou egter die reg voor om ons belange na ons goeddunke te beskerm indien ons deur die wet (of deur internasionale beste praktyke) verplig word, of indien ons rede het om te glo dat u rekening vir enige onwettige doeleindes gebruik word. &lt;br /&gt;
+            &lt;br /&gt;Kontak ons gerus by die besonderhede wat hier bo aangegee word, of stuur vir ons ŉ e-pos by &lt;b&gt;&lt;u&gt;FordCredit@geomail.co.za&lt;/u&gt;&lt;/b&gt; as u enige navrae het of hulp verlang. &lt;br /&gt;
+            &lt;br /&gt;Let wel dat verdere dokumente by ontvangs van hierdie inligting vereis kan word. &lt;br /&gt;
+            &lt;br /&gt;Ons stel ons verhouding met u op prys en waardeer u samewerking. &lt;br /&gt;
+            &lt;br /&gt;Vriendelik die uwe &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;font color=&quot;blue&quot;&gt;Ford Credit Bestuur  &lt;/font&gt;
+            &lt;br /&gt;
+          &lt;/span&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
